@@ -10,7 +10,7 @@ Obligatory [Docker Hub](https://hub.docker.com/r/mmr42/gitlab-ci-android-ndk) li
 A `.gitlab-ci.yml` with caching of your project's dependencies would look like this:
 
 ```
-image: mmr42/gitlab-ci-android-ndk:latest
+image: wayyan/android-sdk-ndk:latest
 
 variables:
   GRADLE_OPTS: "-Dorg.gradle.daemon=false"
