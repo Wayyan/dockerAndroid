@@ -1,9 +1,6 @@
 #
 # GitLab CI: Android v0.2
 #
-# https://hub.docker.com/r/mmr42/gitlab-ci-android-ndk/
-# https://github.com/m-rm/gitlab-ci-android-ndk
-#
 
 FROM ubuntu:20.04
 
